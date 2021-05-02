@@ -1,29 +1,22 @@
 {
-  "name": "mvp-bd-client",
-  "private": true,
-  "description": "Minimum viable product of Bulldog client",
+  "name": "mazingcontest",
+  "version": "1.0.0",
+  "description": "The WC3 game (and mazer.io) build using webcraft",
   "scripts": {
-    "build": "esbuild src/katma/index.ts src/katma/server.ts src/mazingcontest/index.ts src/mazingcontest/server.ts --bundle --keep-names --sourcemap --format=esm --outdir=public",
-    "dev": "npm run build -- --watch",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint src --ext .js,.ts,.jsx,.tsx --quiet --fix",
-    "test-lint": "eslint src --ext .js,.ts,.jsx,.tsx --max-warnings 0",
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js --watch",
     "jest": "jest --silent",
+    "lint": "eslint src --ext .js,.ts,.jsx,.tsx --quiet --fix",
     "start": "node --experimental-modules --no-warnings server/src/index.js",
-    "test": "jest",
     "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-    "setup": "mkdir -p ./public/node_modules/three && ln -si ../../node_modules/three public/node_modules/three"
+    "test-lint": "eslint src --ext .js,.ts,.jsx,.tsx --max-warnings 0",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
   },
   "license": "ISC",
   "author": "verit",
-  "main": "server/src/index.js",
-  "dependencies": {
-    "@types/three": "^0.126.1",
-    "marked": "^2.0.1",
-    "notextures": "^4.0.3",
-    "preact": "^10.5.8",
-    "three": "^0.126.1"
-  },
+  "main": "public/server.cjs",
+  "files": ["public/*"],
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
@@ -46,8 +39,10 @@
     "jest-ts-webcompat-resolver": "^1.0.0",
     "jsdom": "^16.4.0",
     "prettier": "^2.2.1",
+    "three": "^0.126.1",
     "ts-jest": "^26.4.4",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.2",
+    "webcraft": "^3.0.0"
   },
   "type": "module"
 }
