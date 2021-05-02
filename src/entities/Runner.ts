@@ -1,6 +1,5 @@
-import { Component } from "webcraft";
 import type { UnitProps } from "webcraft";
-import { Unit } from "webcraft";
+import { Component, Unit } from "webcraft";
 
 export class Runner extends Unit {
 	static defaults = {

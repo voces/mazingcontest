@@ -1,6 +1,6 @@
 import type { Mesh } from "three/src/objects/Mesh";
-
 import { PATHING_TYPES } from "webcraft";
+
 import type { ObstructionProps } from "./Obstruction";
 import { Obstruction } from "./Obstruction";
 import { registerEntity } from "./registry";

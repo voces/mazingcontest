@@ -1,4 +1,5 @@
 import type { ImmediateActionProps } from "webcraft";
+
 import type { Player } from "../players/Player";
 
 export const destroyLast = {

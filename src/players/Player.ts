@@ -1,8 +1,6 @@
-import { releaseColor, takeColor } from "webcraft";
-// eslint-disable-next-line no-restricted-imports
 import type { PlayerState as webcraftPlayerState } from "webcraft";
-// eslint-disable-next-line no-restricted-imports
-import { Player as webcraftPlayer } from "webcraft";
+import { Player as webcraftPlayer, releaseColor, takeColor } from "webcraft";
+
 import type { MazingContest } from "../MazingContest";
 import type { Resource } from "../types";
 

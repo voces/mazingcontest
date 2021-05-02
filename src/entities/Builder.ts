@@ -1,6 +1,6 @@
-import type { Action } from "webcraft";
-import type { UnitProps } from "webcraft";
+import type { Action, UnitProps } from "webcraft";
 import { Unit } from "webcraft";
+
 import { destroyLast } from "../actions/destroyLast";
 import { readyAction } from "../actions/ready";
 import { Block } from "./Block";

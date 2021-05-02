@@ -1,4 +1,5 @@
 import { currentApp, withApp, wrapApp } from "webcraft";
+
 import type { MazingContest } from "./MazingContest";
 import { isMazingContest } from "./typeguards";
 

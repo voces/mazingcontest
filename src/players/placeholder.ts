@@ -1,4 +1,5 @@
 import { colors } from "webcraft";
+
 import { currentMazingContest } from "../mazingContestContext";
 import { Player } from "./Player";
 

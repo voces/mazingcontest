@@ -1,5 +1,5 @@
-import { Component } from "webcraft";
 import type { Mutable } from "webcraft";
+import { Component } from "webcraft";
 
 export class IsDone extends Component<[time: number]> {
 	static argMap = ["time"];

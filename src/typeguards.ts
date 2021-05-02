@@ -1,5 +1,5 @@
-import type { App } from "webcraft";
-import type { Entity } from "webcraft";
+import type { App, Entity } from "webcraft";
+
 import type { Builder } from "./entities/Builder";
 import type { Checkpoint } from "./entities/Checkpoint";
 import type { Runner } from "./entities/Runner";

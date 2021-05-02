@@ -1,9 +1,12 @@
-import type { Emitter } from "webcraft";
-import type { EntityID } from "webcraft";
-// eslint-disable-next-line no-restricted-imports
-import type { InitEvent, PlayerEvent, StateEvent } from "webcraft";
-// eslint-disable-next-line no-restricted-imports
+import type {
+	Emitter,
+	EntityID,
+	InitEvent,
+	PlayerEvent,
+	StateEvent,
+} from "webcraft";
 import { activeHost, ConnectionEvent, Network } from "webcraft";
+
 import type { MazingContest } from "./MazingContest";
 
 interface MazingContestInitEvent extends InitEvent {

@@ -1,8 +1,7 @@
 import { Color } from "three";
-
-import type { Weapon } from "webcraft";
-import type { Effect, Sprite } from "webcraft";
+import type { Effect, Sprite, Weapon } from "webcraft";
 import { isUnit } from "webcraft";
+
 import { currentMazingContest } from "../mazingContestContext";
 import type { ObstructionProps } from "./Obstruction";
 import { Obstruction } from "./Obstruction";

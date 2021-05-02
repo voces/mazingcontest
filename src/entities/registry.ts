@@ -1,4 +1,5 @@
 import type { Entity, EntityID } from "webcraft";
+
 import { isConstructor } from "../helpers";
 
 interface EntityConstructor<E extends Entity> {

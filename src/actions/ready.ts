@@ -1,4 +1,5 @@
 import type { ImmediateActionProps } from "webcraft";
+
 import { currentMazingContest } from "../mazingContestContext";
 import type { ReadyEvent } from "../MazingContestNetwork";
 import type { Player } from "../players/Player";

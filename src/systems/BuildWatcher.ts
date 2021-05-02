@@ -1,6 +1,6 @@
 import type { Entity } from "webcraft";
-import { System } from "webcraft";
-import { isObstruction } from "webcraft";
+import { isObstruction, System } from "webcraft";
+
 import { ForPlayer } from "../components/ForPlayer";
 import type { Obstruction } from "../entities/Obstruction";
 import { isPathable } from "../helpers";

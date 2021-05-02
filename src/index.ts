@@ -1,4 +1,5 @@
 import { window } from "webcraft";
+
 import { MazingContest } from "./MazingContest";
 import { activeHost, MazingContestNetwork } from "./MazingContestNetwork";
 
